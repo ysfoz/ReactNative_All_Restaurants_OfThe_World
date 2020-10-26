@@ -1,0 +1,6 @@
+module Pods_ReactNative_All_Restaurants_OfThe_World {
+  umbrella header "Pods-ReactNative_All_Restaurants_OfThe_World-umbrella.h"
+
+  export *
+  module * { export * }
+}
