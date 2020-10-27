@@ -3,7 +3,10 @@ import { View, Text,TouchableOpacity, StyleSheet, Dimensions } from 'react-nativ
 
 const CityCard = (props) => {
     return (
-        <TouchableOpacity style={[styles.container,{backgroundColor: props.index % 2 == 0 ? '#ffffe4' : '#e2f1f8'}]}>
+        <TouchableOpacity 
+        style={[styles.container,{backgroundColor: props.index % 2 == 0 ? '#ffffe4' : '#e2f1f8'}]}
+        onPress = {props.onSelect}
+        >
             <Text style={styles.text}>{props.cityName}</Text>
         </TouchableOpacity>
         

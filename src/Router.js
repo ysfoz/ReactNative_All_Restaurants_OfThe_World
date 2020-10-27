@@ -16,7 +16,7 @@ const Router=()=> {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="CityList" component={CityList} />
-        <Stack.Screen name="Restaurant" component={RestaurantList} />
+        <Stack.Screen name="Restaurants" component={RestaurantList} />
         <Stack.Screen name="Infos" component={InfoList} />
       </Stack.Navigator>
     </NavigationContainer>
