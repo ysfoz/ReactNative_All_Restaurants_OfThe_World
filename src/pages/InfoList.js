@@ -59,7 +59,8 @@ const styles = StyleSheet.create({
     image:{
         height:Dimensions.get('window').height / 3,
         borderWidth:10,
-        borderColor:'#ff7961'
+        borderRadius:20,
+        borderColor:'#546e7a'
 
     },
     price:{

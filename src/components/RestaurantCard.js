@@ -44,12 +44,12 @@ const styles = StyleSheet.create({
         borderWidth:20,
         marginBottom:10,
         borderRadius:15,
-        borderColor:'#ff7961',
+        borderColor:'#ffbb93',
 
     },
     text:{
         fontSize:22,
-        backgroundColor:'#ff7961',
+        backgroundColor:'#ffbb93',
         fontWeight:'bold',
         padding:10,
         marginTop:10
