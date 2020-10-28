@@ -8,6 +8,7 @@ const SearchBar =(props)=>{
             style={styles.textinput}
             placeholder = {props.placeholder}
             onChangeText = {(value) => props.onSearch(value)}
+            placeholderTextColor="#455a64"
             />
         </View>
     )
@@ -18,13 +19,14 @@ export {SearchBar};
 const styles = StyleSheet.create({
     container:{
        
-        backgroundColor:'#cfd8dc',
+        backgroundColor:'#eceff1',
         padding:10,
         borderRadius:10,
-        margin:10,
+        
   
     },
     textinput:{
-fontSize:20
+        fontSize:20,
+        
     }
 })

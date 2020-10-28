@@ -42,7 +42,7 @@ const renderItemfonc = ({item}) => <CityCard
         <SafeAreaView style= {{flex:1}}>
             <View style={{flex:1}}>
             <SearchBar
-            placeholder = 'Enter a city name . . .'
+            placeholder = 'Enter a city name ➢ ➢ ➢'
             onSearch = {search}
             />
             <FlatList

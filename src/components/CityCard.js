@@ -7,7 +7,10 @@ const CityCard = (props) => {
         style={[styles.container,{backgroundColor: props.index % 2 == 0 ? '#ffffe4' : '#e2f1f8'}]}
         onPress = {props.onSelect}
         >
-            <Text style={styles.text}>{props.cityName}</Text>
+            <Text style={styles.text}>
+                
+                {props.cityName}
+                {props.index % 2 == 0 ? '➢' :'➤' }</Text>
         </TouchableOpacity>
         
     )
@@ -26,7 +29,8 @@ const styles = StyleSheet.create({
        
     },
     text:{
-        fontSize:20,
+        fontSize:25,
+        fontWeight:'bold'
         
         
     }
